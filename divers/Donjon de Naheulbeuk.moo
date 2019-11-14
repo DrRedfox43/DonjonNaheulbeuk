@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{F03C1E2B-132C-4FF4-9D6C-44FD688FD811}" Label="" LastModificationDate="1573740453" Name="Donjon de Naheulbeuk" Objects="125" Symbols="42" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{F03C1E2B-132C-4FF4-9D6C-44FD688FD811}" Label="" LastModificationDate="1573740567" Name="Donjon de Naheulbeuk" Objects="125" Symbols="42" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1596,7 +1596,7 @@ MULA 0 Arial,8,N</a:FontList>
 <a:Rect>((-74754,9276), (-32728,17114))</a:Rect>
 <a:ListOfPoints>((-74754,10350),(-53571,10350),(-53571,16040),(-32728,16040))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
-<a:ArrowStyle>8</a:ArrowStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
@@ -2495,7 +2495,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>Origine</a:Code>
 <a:CreationDate>1573736851</a:CreationDate>
 <a:Creator>utilisateur</a:Creator>
-<a:ModificationDate>1573739203</a:ModificationDate>
+<a:ModificationDate>1573740567</a:ModificationDate>
 <a:Modifier>utilisateur</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
@@ -2979,7 +2979,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>CompetenceOrigine</a:Code>
 <a:CreationDate>1573739139</a:CreationDate>
 <a:Creator>utilisateur</a:Creator>
-<a:ModificationDate>1573739203</a:ModificationDate>
+<a:ModificationDate>1573740567</a:ModificationDate>
 <a:Modifier>utilisateur</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
@@ -3530,12 +3530,13 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>Association_11</a:Code>
 <a:CreationDate>1573739160</a:CreationDate>
 <a:Creator>utilisateur</a:Creator>
-<a:ModificationDate>1573739203</a:ModificationDate>
+<a:ModificationDate>1573740567</a:ModificationDate>
 <a:Modifier>utilisateur</a:Modifier>
 <a:RoleAName>origine</a:RoleAName>
 <a:RoleBName>competencesOrigine</a:RoleBName>
 <a:RoleAMultiplicity>0..1</a:RoleAMultiplicity>
 <a:RoleBMultiplicity>0..*</a:RoleBMultiplicity>
+<a:RoleANavigability>1</a:RoleANavigability>
 <c:Object1>
 <o:Class Ref="o74"/>
 </c:Object1>
